@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Project - Google Homepage</title>
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <header>
         <!--Top Left-->
-        <div id="linksTopLeft">
+        <span id="linksTopLeft">
             <a href="#">About</a>
             <a href="#">Store</a>
-        </div>
+        </span>
         <!--Top Right-->
-        <div id="linksTopRight">
+        <span id="linksTopRight">
             <a href="#">Gmail</a>
             <a href="#">Images</a>
             <!--Icons Top Right-->
-            <div id="iconsTopRight">
+            <span id="iconsTopRight">
                 <a href="#"><img id="appsIcon" src="./Images/icons.webp" alt="Google apps icon"></a>
                 <a href="#"><img id="profileIcon" src="./Images/profIcon.png" alt="Profile picture"></a>
-            </div>
-        </div>
+            </span>
+        </span>
     </header>
     <main>
         <!--Google Logo and Share Icon-->
@@ -36,6 +37,7 @@
         <div>
             <form action="">
                 <input type="text">
+                <br>
                 <button type="submit">Google Search</button>
                 <button type="submit">I'm Feeling Lucky</button>
             </form>
@@ -46,16 +48,22 @@
         <!--Bottom Links-->
         <div id="linksBottom">
             <!--Bottom Left-->
+            <span>
             <a href="#">Advertising</a>
             <a href="#">Business</a>
             <a href="#">How Search works</a>
+            </span>
             <!--Bottom Middle-->
+            <span>
             <img src="Images/leaf.png" alt="Little leaf">
             <a href="#">Carbon neutral since 2007</a>
+            </span>
             <!--Bottom Right-->
+            <span>
             <a href="#">Privacy</a>
             <a href="#">Terms</a>
             <a href="#">Settings</a>
+            </span>
         </div>
     </footer>
 </body>

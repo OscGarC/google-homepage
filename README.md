@@ -1,7 +1,7 @@
 # google-homepage
 
-This will be my first project for The Odin Project
+This will be my first project.
 
-For this project I will attempt to make the Google homepage.
+For this project I will make a page that looks like the Google Homepage.
 
-By the end of the project I would have learned about how to position objects around a webpage and how to use the developer tools in Chrome.
+By the end of the project I will learned how to position objects around a webpage and how to use Chrome/Firefox's Develper tools.

@@ -1,5 +1,7 @@
 header {
   font-size: 13px;
+  /* temp */
+  background-color: gray;
 }
 
 body {
@@ -8,6 +10,13 @@ body {
 
 main {
   text-align: center;
+  /* temp */
+  background-color: indianred;
+}
+
+footer {
+  /* temp */
+  background-color: gray;
 }
 
 a {
@@ -21,10 +30,16 @@ a:hover {
 
 #linksTopLeft a {
   opacity: 0.75;
+  /* temp */
+  background-color: orange;
+  display: inline-block;
 }
 
 #linksTopRight {
   opacity: 0.75;
+  /* temp */
+  background-color: orange;
+  display: inline-block;
 }
 
 #iconsTopRight {
