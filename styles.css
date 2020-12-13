@@ -1,65 +1,39 @@
-header {
-  font-size: 13px;
-  /* temp */
-  background-color: gray;
+*{
+  font-family: arial,sans-serif;
+  font-size: 14px;
 }
 
-body {
-  font-family: arial, sans-serif;
-}
-
-main {
-  text-align: center;
-  /* temp */
-  background-color: indianred;
-}
-
-footer {
-  /* temp */
-  background-color: gray;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-#linksTopLeft a {
-  opacity: 0.75;
-  /* temp */
-  background-color: orange;
+/* top left */
+#topLeft{
   display: inline-block;
+  float: left;
 }
 
-#linksTopRight {
-  opacity: 0.75;
-  /* temp */
-  background-color: orange;
+/* top right */
+#topRight{
   display: inline-block;
+  float: right;
 }
 
-#iconsTopRight {
+.fa-th{
+  opacity: .55;
 }
 
-#appsIcon {
-  opacity: 0.55;
-  width: 24px;
-  height: 24px;
-}
-
-#appsIcon:hover {
+.fa-th:hover {
   opacity: 1;
 }
 
-#profileIcon {
-  border-radius: 50%;
+#profileIcon{
   width: 32px;
   height: 32px;
+  border-radius: 50%;
 }
 
-#profileIcon:hover {
+/* links */
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
 }
