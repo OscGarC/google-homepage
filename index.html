@@ -22,7 +22,7 @@
         <li><a href="#">Store</a></li>
         <!-- right side -->
         <!-- icons -->
-        <li class="floatRight" id="profileIcon"><img id="profileImg" src="./Images/profIcon.png" alt="Profile Icon"></li>
+        <li class="floatRight" id="profileIcon"><a href="https://github.com/OscGarC"><img id="profileImg" src="./Images/profIcon.png" alt="Profile Icon"></a></li>
         <li class="floatRight"><i id="appsIcon" class="fas fa-th"></i></li>
         <li class="floatRight"><a href="#">Images</a></li>
         <li class="floatRight"><a href="#">Gmail</a></li>
@@ -30,13 +30,21 @@
     <!-- google logo and input form -->
     <section id="googleLogo">
         <img src="./Images/googleLogo.png" alt="Google Logo">
+        <img src="./Images/share.png" alt="Share icon">
     </section>
+    <br>
+    <br>
     <br>
     <br>
     <!-- form under logo -->
     <section id="searchForm">
+        
         <form action="#">
-            <input type="text">
+            <div id="searchBorder">
+                <i class="fas fa-search"></i>
+                <input id="searchText" type="text">
+                <i class="fas fa-microphone"></i>
+            </div>
             <br>
             <br>
             <button>Google Search</button>
