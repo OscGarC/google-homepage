@@ -1,39 +1,112 @@
-*{
-  font-family: arial,sans-serif;
-  font-size: 14px;
+/* general */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
 }
 
-/* top left */
-#topLeft{
-  display: inline-block;
+a {
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
   float: left;
 }
 
-/* top right */
-#topRight{
-  display: inline-block;
+.floatRight {
   float: right;
 }
 
-.fa-th{
-  opacity: .55;
+/* top */
+
+#topNav {
+  font-size: 13px;
+  padding: 0 22.5px 0 17.5px;
 }
 
-.fa-th:hover {
+#topNav li {
+  padding: 23px 7.5px 0px 7.5px;
+}
+
+#topNav li a {
+  color: black;
+}
+
+#topNav li a:hover {
+  opacity: .75;
+}
+
+#appsIcon {
+  opacity: 0.55;
+}
+
+#appsIcon:hover{
   opacity: 1;
 }
 
-#profileIcon{
+#profileIcon {
+  padding-top: 18px !important;
+}
+
+#profileImg {
+  box-sizing: border-box;
   width: 32px;
   height: 32px;
   border-radius: 50%;
 }
 
-/* links */
-a {
-  text-decoration: none;
-  color: black;
+#profileImg:hover {
+  box-shadow: 0px .75px .75px 0px rgba(0,0,0,0.5);
 }
-a:hover {
-  text-decoration: underline;
+
+/* middle */
+
+#googleLogo {
+  text-align: center;
+  padding-top: 25vh;
+}
+
+#searchForm {
+  text-align: center;
+}
+
+/* bottom */
+
+#bottomNav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(242, 242, 242);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgb(218, 220, 224);
+  font-size: 14px;
+  line-height: 40px;
+  padding-left: 16.5px;
+  overflow: hidden;
+}
+
+#bottomNav li {
+  padding: 0 13.5px 0 13.5px;
+}
+
+#bottomNav li a{
+  color: rgb(112, 117, 122);
+}
+
+#settings{
+  padding-right: 46.5px !important;
 }

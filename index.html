@@ -8,30 +8,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Project - Google Homepage</title>
     <script src="https://kit.fontawesome.com/8d25f81b77.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./reset.css">
+    <!-- <link rel="stylesheet" href="./reset.css"> -->
     <link rel="stylesheet" href="./styles.css">
 
 </head>
 
 <body>
 
-    <header>
-
-        <!-- top left -->
-        <div id="topLeft">
-            <a href="#">About</a>
-            <a href="#">Store</a>
-        </div>
-
-        <!-- top right -->
-        <div id="topRight">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <i class="fas fa-th"></i>
-            <img id="profileIcon" src="./Images/profIcon.png" alt="Profile icon">
-        </div>
-
-    </header>
+    <!-- top navigation bar -->
+    <ul id="topNav">
+        <!-- left side -->
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+        <!-- right side -->
+        <!-- icons -->
+        <li class="floatRight" id="profileIcon"><img id="profileImg" src="./Images/profIcon.png" alt="Profile Icon"></li>
+        <li class="floatRight"><i id="appsIcon" class="fas fa-th"></i></li>
+        <li class="floatRight"><a href="#">Images</a></li>
+        <li class="floatRight"><a href="#">Gmail</a></li>
+    </ul>
+    <!-- google logo and input form -->
+    <section id="googleLogo">
+        <img src="./Images/googleLogo.png" alt="Google Logo">
+    </section>
+    <br>
+    <br>
+    <!-- form under logo -->
+    <section id="searchForm">
+        <form action="#">
+            <input type="text">
+            <br>
+            <br>
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </form>
+    </section>
+    <!-- bottom navigation bar -->
+    <ul id="bottomNav">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">How Search works</a></li>
+        <li class="floatRight" id="settings"><a href="#">Settings</a></li>
+        <li class="floatRight"><a href="#">Terms</a></li>
+        <li class="floatRight"><a href="#">Privacy</a></li>
+    </ul>
 
 </body>
 
